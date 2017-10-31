@@ -11,11 +11,11 @@ public class Player : MonoBehaviour {
 
     private PLAYER_STATES m_CurrentState = PLAYER_STATES.LOCKED;
 
-	[SerializeField] private float JumpX;
-	[SerializeField] private float JumpHeight = 3.5f;
-	[SerializeField] private float gravity = -20f;
-	[SerializeField] private Vector2 wallLeap;
-	[SerializeField] private float wallSlideSpeedMax = 3;
+    [SerializeField] private float JumpX;
+    [SerializeField] private float JumpHeight = 3.5f;
+    [SerializeField] private float gravity = -20f;
+    [SerializeField] private Vector2 wallLeap;
+    [SerializeField] private float wallSlideSpeedMax = 3;
     [SerializeField] private ParticleSystem m_Particles;
     [SerializeField] private LayerMask m_WallMask;
     [SerializeField] private SpriteRenderer m_PlayerSprite;
